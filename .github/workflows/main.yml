@@ -11,3 +11,5 @@ jobs:
         run: echo "hello this is my 1st workflow"
       - name: checkout the repo
         uses: actions/checkout@v5.0.0
+      - name: list the repo files
+        run: ls -la 

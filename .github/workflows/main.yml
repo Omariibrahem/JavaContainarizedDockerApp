@@ -7,6 +7,6 @@ jobs:
   example-job:
     runs-on: ubuntu-latest
     steps:
-      -name: print a welcome message
-       run: echo "welcome to 1st workflow"
+      - name: print a welcome message
+        run: echo "welcome to 1st workflow"
        

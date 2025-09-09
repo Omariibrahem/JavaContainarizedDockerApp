@@ -9,3 +9,5 @@ jobs:
     steps:
       - name: print a message
         run: echo "hello this is my 1st workflow"
+      - name: checkout the repo
+        uses: actions/checkout@v5.0.0

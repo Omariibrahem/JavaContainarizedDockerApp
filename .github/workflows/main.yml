@@ -1,12 +1,11 @@
-name: first workflow
+name: first workflow on github actions
 on:
   push:
-    branches:
+    branches: 
       - main
 jobs:
   example-job:
     runs-on: ubuntu-latest
     steps:
-      - name: print a welcome message
-        run: echo "welcome to 1st workflow"
-       
+      - name: print a message
+        run: echo "hello this is my 1st workflow"
